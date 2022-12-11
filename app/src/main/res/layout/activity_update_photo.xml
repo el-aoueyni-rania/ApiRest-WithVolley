@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updatePhoto"
+    android:orientation="vertical">
+
+    <EditText
+        android:hint="album Id"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/albumId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        ></EditText>
+    <EditText
+        android:hint="Id"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></EditText>
+    <EditText
+        android:hint="title"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></EditText>
+    <EditText
+        android:hint="URL"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/url2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></EditText>
+    <EditText
+        android:hint="thumbnail Url"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_margin="20dp"
+        android:id="@+id/thumbnailUrl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ></EditText>
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        ></Button>
+
+
+
+
+</LinearLayout>
